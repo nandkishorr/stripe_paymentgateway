@@ -14,7 +14,7 @@
     "concurrently": "4.1.2"
   },
   "homepage": "https://stripe-paymentgateway.vercel.app/",
-  "proxy": "https://stripe-paymentgatewayv1.vercel.app/checkout",
+  "proxy": "https://stripe-paymentgatewayv1.vercel.app",
   "scripts": {
     "start-client": "react-scripts start",
     "start-server": "node server.js",
