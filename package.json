@@ -13,9 +13,10 @@
   "devDependencies": {
     "concurrently": "4.1.2"
   },
+  "homepage": "",
   "proxy": "http://localhost:4242",
   "scripts": {
-    "start-client": "react-scripts --openssl-legacy-provider start",
+    "start-client": "react-scripts start",
     "start-server": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",

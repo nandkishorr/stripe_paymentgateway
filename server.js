@@ -21,13 +21,13 @@ app.post('/checkout', async (req, res) => {
 
   res.redirect(303, session.url);
   
-  const paymentIntent = await stripe.paymentIntents.create({
-    amount: 100,
-    currency: 'inr',
-    payment_method_types: ['card'],
-    receipt_email: 'iamnandkishorr@gmail.com.com',
-    description: 'Your kindness will not be gone unnoticed',
-  });
+  // const paymentIntent = await stripe.paymentIntents.create({
+  //   amount: 100,
+  //   currency: 'inr',
+  //   payment_method_types: ['card'],
+  //   receipt_email: 'iamnandkishorr@gmail.com.com',
+  //   description: 'Your kindness will not be gone unnoticed',
+  // });
 });
 
 app.listen(4242, () => console.log('Running on port 4242'));
