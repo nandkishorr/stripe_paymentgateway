@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 app.use(express.static('public'));
 
-const YOUR_DOMAIN = 'http://localhost:3006';
+const YOUR_DOMAIN = 'https://nandkishorr.github.io/stripe_paymentgateway/';
 const PRICE_ID='price_1N9OTlSBIjs6Y4N0BO7l7eJn';
 app.post('/checkout', async (req, res) => {
   const session = await stripe.checkout.sessions.create({
