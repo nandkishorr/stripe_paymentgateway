@@ -13,10 +13,9 @@
   "devDependencies": {
     "concurrently": "4.1.2"
   },
-  "homepage": "https://nandkishorr.github.io/stripe_paymentgateway/",
   "proxy": "http://localhost:4242",
   "scripts": {
-    "start-client": "set PORT=3006 && react-scripts start",
+    "start-client": "react-scripts --openssl-legacy-provider start",
     "start-server": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
