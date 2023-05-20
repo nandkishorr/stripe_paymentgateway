@@ -1,13 +1,13 @@
 {
     "builds":[
         {
-            "src":"./src/app/ && ./server.js",
+            "src":"./src/app/",
             "use":"@vercel/node"
         }
     ],
     "routes":[
         {
-            "src":"/.* && ./server.js",
+            "src":"/.*",
             "dest":"app.js"
         }
     ]
