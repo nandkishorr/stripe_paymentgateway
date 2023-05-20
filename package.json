@@ -13,7 +13,7 @@
   "devDependencies": {
     "concurrently": "4.1.2"
   },
-  "homepage": "https://stripe-paymentgateway.vercel.app",
+  "homepage": "https://stripe-paymentgatewayv1.vercel.app/",
   "proxy": "http://localhost:4242",
   "scripts": {
     "start-client": "react-scripts start",
