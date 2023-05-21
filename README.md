@@ -16,4 +16,4 @@ npm install
 npm start
 ~~~
 
-3. Go to [http://localhost:3000/checkout](http://localhost:3000/checkout)
+3. Go to [http://localhost:3000/checkout](http://localhost:3000)
